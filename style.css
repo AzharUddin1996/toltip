@@ -1,0 +1,29 @@
+
+.toltip{
+ font-size: 20px;
+}
+.toltip:hover .toltip-text{
+    visibility: visible;
+}
+.toltip-text{
+   visibility: hidden;
+    width: 150px;
+    height: auto;
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: gold;
+}
+
+
+
+.overflow{
+    width: 250px;
+    height: 200px;
+    /* overflow: hidden; */
+    /* overflow: auto; */
+    /* overflow: visible; */
+    overflow: scroll;
+    background-color: green;
+    border: 3px solid red;
+}
